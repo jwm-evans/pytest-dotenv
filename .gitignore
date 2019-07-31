@@ -21,6 +21,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+venv/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -51,4 +52,7 @@ coverage.xml
 docs/_build/
 
 # PyBuilder
-target/
+target/idea
+
+#Pycharm
+.idea/

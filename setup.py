@@ -13,7 +13,7 @@ setup(
     download_url='https://github.com/quiqua/pytest-dotenv/tarball/0.2.0',
     packages=['pytest_dotenv'],
     entry_points={'pytest11': ['env = pytest_dotenv.plugin']},
-    install_requires=['pytest>=2.6.0', 'python-dotenv>=0.9.1'],
+    install_requires=['pytest-django>=3.4.8', 'django-dotenv>=1.4.2'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
@@ -27,5 +27,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6'
+        'Programming Language :: Python :: 3.7'
     ]
 )
